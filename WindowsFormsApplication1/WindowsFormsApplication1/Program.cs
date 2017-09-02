@@ -10,6 +10,7 @@ namespace WindowsFormsApplication1
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
+        /// 
         /// </summary>
         [STAThread]
         static void Main()
@@ -17,6 +18,7 @@ namespace WindowsFormsApplication1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            //esto se ve?????
         }
     }
 }
